@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "新东方课时填报系统"
+			}
+		},{
+			"path" : "pages/login/login",
+			"style" : {
+				"navigationBarTitleText": "登录"
+			}
+		},{
+				"path" : "pages/register/register",
+				"style" : {
+					"navigationBarTitleText": "注册"
+				}
+		} 
+		,{
+            "path" : "pages/person/person",
+            "style" : {
+							"navigationBarTitleText": "个人资料"
+						}
+        }
+        ,{
+            "path" : "pages/change/change",
+            "style" : {
+							"navigationBarTitleText": "修改密码"
+						}
+        }
+        ,{
+            "path" : "pages/phone/phone",
+            "style" : {
+							"navigationBarTitleText": "修改手机号"
+						}
+        }
+        ,{
+            "path" : "pages/nickname/nickname",
+            "style" : {
+							"navigationBarTitleText": "修改昵称"
+						}
+        }
+        ,{
+            "path" : "pages/manager/manager",
+            "style" : {
+							"navigationBarTitleText": "管理中心"
+						}
+        }
+        ,{
+            "path" : "pages/school/school",
+            "style" : {
+							"navigationBarTitleText": "校区管理"
+						}
+        }
+        ,{
+            "path" : "pages/teacher/teacher",
+            "style" : {
+							"navigationBarTitleText": "教师管理"
+						}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#016864",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "新东方课时统计",
+		"backgroundColor": "#FAFAFA"
+	}
+}
